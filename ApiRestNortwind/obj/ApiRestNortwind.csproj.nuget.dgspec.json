@@ -1,0 +1,145 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\ApiRestNortwind\\ApiRestNortwind.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\ApiRestNortwind\\ApiRestNortwind.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\ApiRestNortwind\\ApiRestNortwind.csproj",
+        "projectName": "ApiRestNortwind",
+        "projectPath": "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\ApiRestNortwind\\ApiRestNortwind.csproj",
+        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\ApiRestNortwind\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\Tarea3_DWB\\Tarea3_DWB.csproj": {
+                "projectPath": "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\Tarea3_DWB\\Tarea3_DWB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\Tarea3_DWB\\Tarea3_DWB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\Tarea3_DWB\\Tarea3_DWB.csproj",
+        "projectName": "Tarea3_DWB",
+        "projectPath": "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\Tarea3_DWB\\Tarea3_DWB.csproj",
+        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sebastian\\Desktop\\Semestre ENE - JUL 2021\\Desarrollo Web - Back End\\Programas\\Tarea4_DWB\\Tarea3_DWB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
